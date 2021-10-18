@@ -9,10 +9,10 @@ Table of contents
 =================
    * [Introduction](#introduction)
    * [Installation](#installation)
-        * [Step 1: Clone the Code from Github](# Step 1: Clone the Code from Github)
-        * [Step 2: Install Requirements](# Step 2: Install Requirements)
-   * [Run  Script  to Train](#Run Script to Train)
-   * [Tuning a hyper-parameter](#Tuning a hyper-parameter)
+        * [Step 1: Clone the Code from Github](#Step-1:-Clone-the-Code-from-Github)
+        * [Step 2: Install Requirements](#Step-2:-Install-Requirements)
+   * [Run  Script  to Train](#Run-Script-to-Train)
+   * [Tuning a hyper-parameter](#Tuning-a-hyper-parameter)
 
 ## introduction
 [SimCLR](https://sthalles.github.io/simple-self-supervised-learning/#1) uses the same principles of contrastive learning described above. In the proposed paper, the method achieves SOTA in self-supervised and semi-supervised learning benchmarks. It introduces a simple framework to learn representations from unlabeled images based on heavy data augmentation. ***To put it simply, SimCLR uses contrastive learning to maximize agreement between 2 augmented versions of the same image.\***
@@ -60,5 +60,4 @@ Feature evaluation is done using a linear model protocol.Tuning a hyper-paramete
 | Logistic Regression (Adam) | CIFAR10 | SimCLR            | [ResNet-50](https://drive.google.com/open?id=1lc2aoVtrAetGn0PnTkOyFzPCIucOJq7C) | 512                    | 128                            | 100    | 65.625 |
 | Logistic Regression (Adam) | CIFAR10 | SimCLR            | [ResNet-50](https://drive.google.com/open?id=1lc2aoVtrAetGn0PnTkOyFzPCIucOJq7C) | 512                    | 128                            | 150    | 71.093 |
 | Logistic Regression (Adam) | CIFAR10 | SimCLR            | [ResNet-50](https://drive.google.com/open?id=1lc2aoVtrAetGn0PnTkOyFzPCIucOJq7C) | 512                    | 128                            | 200    | 73.242 |
-
 
