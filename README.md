@@ -9,8 +9,8 @@ Table of contents
 =================
    * [Introduction](#introduction)
    * [Installation](#installation)
-        * [Step1:Clone the Code from Github](#Step1:Clone-the-Code-from-Github)
-        * [Step2:Install Requirements](#Step2:Install-Requirements)
+        * [Step 1: Clone the Code from Github](#Step-1-Clone-the-Code-from-Github)
+        * [Step 2: Install Requirements](#Step-2-Install-Requirements)
    * [Run  Script  to Train](#Run-Script-to-Train)
    * [Tuning a hyper-parameter](#Tuning-a-hyper-parameter)
 
@@ -23,14 +23,14 @@ Table of contents
 
 ## installation
 
-### Step1:Clone the Code from Github
+### Step 1: Clone the Code from Github
 
 ```
 git clone https://github.com/zjuygm/SimCLR_tested_on_cifar10.git
 cd SimCLR_tested_on_cifar10\SimCLR-test
 ```
 
-### Step2:Install Requirements
+### Step 2: Install Requirements
 
 **Python**: see [`requirements.txt`](https://github.com/zjuygm/SimCLR_tested_on_cifar10/blob/main/SimCLR-test/requirements.txt) for complete list of used packages. We recommend doing a clean installation of requirements using virtualenv:
 
