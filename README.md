@@ -53,15 +53,13 @@ python run.py -data ./datasets -dataset-name cifar10 --log-every-n-steps 100 --e
 
 ## Tuning a hyper-parameter
 
-Feature evaluation is done using a linear model protocol.Tuning a hyper-parameter and analyzing its effects on performance.Note that SimCLR benefits from **longer training**.**Top 1 is  on cifar10  test set.**
+Feature evaluation is done using a linear model protocol.Tuning a hyper-parameter and analyzing its effects on performance.Note that SimCLR benefits from **longer training**.<img src="https://latex.codecogs.com/svg.image?\inline&space;\mu_{c},&space;\sigma_{c},&space;\pi_{c}" title="\inline \mu_{c}, \sigma_{c}, \pi_{c}" />**Top 1 is  on cifar10  test set.**
 
 | Linear Classification      | Dataset | Feature Extractor | Architecture                                                 | Feature dimensionality | Projection Head dimensionality | Epochs | Top1 % |
 | -------------------------- | ------- | ----------------- | ------------------------------------------------------------ | ---------------------- | ------------------------------ | ------ | ------ |
 | Logistic Regression (Adam) | CIFAR10 | SimCLR            | [ResNet-50](https://drive.google.com/open?id=1lc2aoVtrAetGn0PnTkOyFzPCIucOJq7C) | 512                    | 128                            | 100    | 65.625 |
 | Logistic Regression (Adam) | CIFAR10 | SimCLR            | [ResNet-50](https://drive.google.com/open?id=1lc2aoVtrAetGn0PnTkOyFzPCIucOJq7C) | 512                    | 128                            | 150    | 71.093 |
 | Logistic Regression (Adam) | CIFAR10 | SimCLR            | [ResNet-50](https://drive.google.com/open?id=1lc2aoVtrAetGn0PnTkOyFzPCIucOJq7C) | 512                    | 128                            | 200    | 73.242 |
-
-! [](https://latex.codecogs.com/gif.image?\dpi{50}&space;\inline&space;\mu_{c},&space;\sigma_{c},&space;\pi_{c})
 
 
 
