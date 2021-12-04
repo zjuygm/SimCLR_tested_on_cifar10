@@ -61,5 +61,9 @@ Feature evaluation is done using a linear model protocol.Tuning a hyper-paramete
 | Logistic Regression (Adam) | CIFAR10 | SimCLR            | [ResNet-50](https://drive.google.com/open?id=1lc2aoVtrAetGn0PnTkOyFzPCIucOJq7C) | 512                    | 128                            | 150    | 71.093 |
 | Logistic Regression (Adam) | CIFAR10 | SimCLR            | [ResNet-50](https://drive.google.com/open?id=1lc2aoVtrAetGn0PnTkOyFzPCIucOJq7C) | 512                    | 128                            | 200    | 73.242 |
 
-[](https://latex.codecogs.com/gif.image?\dpi{50}&space;\inline&space;\mu_{c},&space;\sigma_{c},&space;\pi_{c})
+! [](https://latex.codecogs.com/gif.image?\dpi{50}&space;\inline&space;\mu_{c},&space;\sigma_{c},&space;\pi_{c})
+
+
+
+
 
